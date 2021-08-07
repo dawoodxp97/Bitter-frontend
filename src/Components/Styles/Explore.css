@@ -1,0 +1,103 @@
+.explore {
+  display: flex;
+  flex-direction: row;
+  height: 39.5vw;
+}
+.explore_sidebar {
+  flex: 0.09;
+  height: 100%;
+}
+.explore_main {
+  flex: 0.91;
+  height: 100%;
+  border-bottom-right-radius: 10px;
+  background-color: #f5f5f2;
+  display: flex;
+  flex-direction: column;
+}
+.explore_head {
+  flex: 0.1;
+  background-color: #182430;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f5f5f2;
+}
+.explore_data {
+  flex: 0.9;
+}
+.twitter_icon {
+  color: #1da1f2;
+  padding-right: 1rem;
+}
+
+select {
+  margin: 16px;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 999px;
+  border-color: #aab8c2;
+  border-width: 2px;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  background-color: #f5f8fa;
+  padding: 8px 16px;
+  margin: 8px;
+  border-radius: 999px;
+}
+.location {
+  background-color: #f5f8fa;
+  padding: 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.location:hover {
+  background-color: #e5e8e8;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+li > a {
+  color: #1da1f2;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+li:hover {
+  background-color: #1da1f2;
+  cursor: pointer;
+}
+
+li:hover > a {
+  color: #f5f8fa;
+}
+
+.tweet_volume {
+  font-size: 12px;
+  background-color: #1da1f2;
+  color: #f5f8fa;
+  border-radius: 999px;
+  padding: 2px 4px;
+  margin-left: 4px;
+  font-weight: bold;
+}
+
+li:hover .tweet_volume {
+  color: #1da1f2;
+  background-color: #f5f8fa;
+}
+.content {
+  height: 30vw;
+  overflow-y: scroll;
+  max-width: 960px;
+  margin: auto;
+}

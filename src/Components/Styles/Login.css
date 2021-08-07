@@ -1,0 +1,157 @@
+.login {
+  border-radius: 15px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.login_left {
+  background-color: chartreuse;
+  flex: 0.5;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1da1f2;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 10px;
+  -webkit-box-shadow: -1px 2px 8px 0.5px #694c4c;
+  box-shadow: -1px 2px 8px 0.5px #694c4c;
+}
+.login_right {
+  background-color: rgb(72, 46, 83);
+  flex: 0.5;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8ff;
+  color: #1da1f2;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 10px;
+  -webkit-box-shadow: 2px 3px 8px 0.5px #694c4c;
+  box-shadow: 2px 3px 8px 0.5px #694c4c;
+}
+.login_left_info {
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f8f8ff;
+}
+.login_left_info_item1 {
+  width: 100%;
+  height: 15%;
+  margin-left: 5%;
+}
+h2,
+h4,
+p,
+h5 {
+  height: auto;
+}
+.login_left_info_item2 {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 18%;
+}
+.login_left_info_item3 {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  margin-left: 18%;
+}
+.login_left_info_item4 {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  margin-left: 18%;
+}
+.icons {
+  margin-top: 1rem;
+  margin-right: 10px;
+}
+.form_group {
+  height: auto;
+  flex: 0.3;
+}
+.login_right_info {
+  height: auto;
+  flex: 0.7;
+}
+.form {
+  height: auto;
+  display: flex;
+  margin-top: 25px;
+}
+.form > h5 {
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.login_logos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.g_logo {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.a_logo {
+  height: 38px;
+  width: 42px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.form_input {
+  height: 23px;
+  border: 1.5px solid #1da1f2;
+  border-radius: 5px;
+  margin-left: 10px;
+  outline: none;
+}
+.login_signInButton {
+  margin-left: 20px;
+  background: #1da1f2;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  border: 1px solid #1da1f2;
+  width: 80px;
+  height: 26px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.login_signInButton:hover {
+  background: white;
+  color: #1da1f2;
+}
+.right_info_item {
+  height: auto;
+}
+.signup_btn {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1da1f2;
+  width: 400px;
+  height: 26px;
+  background-color: white;
+  margin-left: 15px;
+  margin-top: 15px;
+  border: 1px solid #1da1f2;
+  border-radius: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.signup_btn:hover {
+  background-color: #1da1f2;
+  color: white;
+}
